@@ -2,9 +2,8 @@
   "name": "project_boilerplate",
   "version": "1.0.0",
   "description": "Easy to use",
-  "main": "main.js",
+  "index": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "node_modules/.bin/babel src/main.js -w -o dist/assets/bundle.js",
     "webpack": "node_modules/.bin/webpack -w",
     "serve": "webpack-dev-server --mode development",
